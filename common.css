@@ -1,0 +1,44 @@
+html{
+    overflow: scroll;
+ 
+ }
+ body{
+    background-color: black;
+    background-image: url("./images/1-3image.png");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+ 
+ /* HEADER */
+ header::after{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+  }
+ header{
+     text-align: center;
+     color: white;
+     font-size: 3rem;
+     font-weight: 500;
+ }
+ header a{
+     color: white;
+     text-decoration: none;
+ }
+ header span{
+     color: red;
+ }
+ header a:active{
+    color: aliceblue;
+ }
+ header a:hover{
+    cursor:pointer;
+    color: white;
+ }
+
+ @media (max-width:60rem){
+   body{
+      background-image: url("./images/1-5-image.jpg");
+   }
+ }
