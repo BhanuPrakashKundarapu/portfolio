@@ -1,0 +1,9 @@
+.container .row .col-4,.col-6,.col-2 ,.col-auto,.col,.col-sm-4,.col-md-2,.col-8,.col-sm-6{
+    border: 2px solid black;
+}
+.container > .row{
+    /* display: flex;
+     */
+     height: 200px;
+    border: 2px solid black;
+}

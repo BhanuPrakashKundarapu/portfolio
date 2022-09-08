@@ -1,0 +1,67 @@
+header::after{
+   content: "━━━PROJECTS━━━";
+   display: flex;
+   flex-direction: column;
+   font-size: 40px;
+ }
+
+ .drive_shaft , .weather_forecast,.Portfolio,.Guess,.Railway,.Teachnook{
+   padding: 20px;
+   list-style: none;
+   background-color: rgb(247, 241, 241,0.5);
+   backdrop-filter: blur(8px);
+   color: black;
+   font-size: 20px;
+   font-weight: 700;
+   border-radius:10px ;
+ }
+ .drive_shaft figcaption a,.weather_forecast a ,.Portfolio a,.Guess a,.Railway a,.Teachnook a{
+   text-decoration: none;
+   color: white;
+   background-color: brown;
+   padding-right: 9px;
+}
+ 
+ .container .drive_shaft .img ,.weather_forecast img ,.Portfolio img,.Guess img,.Railway img,.Teachnook img{
+   height: 100px;
+   width: 250px;
+   margin: 10px;
+ } 
+
+ .container .col{
+  margin: 10px;
+}
+.Railway,.Teachnook{
+   height:380px
+}
+@media (max-width:860px){
+  .container .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width:460px){
+  body{
+    /* overflow-x: hidden; */
+  }
+  /* .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end ;
+    align-items: center;
+    gap: 20px;
+    /* width: 100%; 
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+  } */
+  .container .col{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 20px; */
+    /* width: 100%;  */
+    flex-wrap: nowrap;
+    /* overflow-x: hidden; */
+  }
+}
