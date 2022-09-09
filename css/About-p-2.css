@@ -60,8 +60,14 @@
      }
     header{
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
         color: white;
+    }
+    header  a {
+        color: white;
+    }
+    header span{
+        color: red;
     }
 .content h1{
     font-size: 25px;
