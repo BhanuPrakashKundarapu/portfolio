@@ -27,7 +27,7 @@ html{
      text-decoration: none;
  }
  header span{
-     color: blue;
+     color: red;
  }
  header a:active{
     color: aliceblue;
