@@ -39,6 +39,6 @@ html{
 
  @media (max-width:60rem){
    body{
-      background-image: url("images/1-5-image.jpg");
+      background-image: url("https://raw.githubusercontent.com/BhanuPrakashKundarapu/z-portfolio/main/images/1-5-image.jpg");
    }
  }
