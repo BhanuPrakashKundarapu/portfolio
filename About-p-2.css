@@ -67,6 +67,7 @@
 }
 .second_sec label{
     font-size: 20px;
+    color: white;
 }
 .second_sec .ACE{
     display: none;
@@ -128,6 +129,7 @@
 }
 .second_sec label{
     font-size: 20px;
+    color: white;
 }
 .second_sec .ACE{
     display:block;
@@ -194,6 +196,7 @@ footer img{
     }
     .second_sec label{
         font-size: 25px;
+        color: white;
     }
     footer img{
         display: none;
