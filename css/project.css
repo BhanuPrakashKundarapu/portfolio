@@ -88,9 +88,10 @@ header::after{
 }
 @media (max-width:460px){
   body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+      background-image: url("https://raw.githubusercontent.com/BhanuPrakashKundarapu/z-portfolio/main/images/1-5-image.jpg");
   }
-  /* .container {
+  .container {
     display: flex;
     flex-direction: row;
     justify-content: flex-end ;
@@ -99,7 +100,7 @@ header::after{
     /* width: 100%; 
     flex-wrap: nowrap;
     overflow-x: hidden;
-  } */
+  }
   .container .col{
     display: flex;
     flex-direction: row;
