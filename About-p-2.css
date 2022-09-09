@@ -45,7 +45,10 @@
     letter-spacing: 1px;
     text-decoration: underline;
 }
+p1{
+    color: white;
 
+}
 .content .about p1{
     color:white;
     font-weight:lighter;
@@ -71,6 +74,9 @@
 .second_sec .ACE{
     display: none;
 }
+
+
+
 @media (max-width:60rem){
     body{
         overflow-x: hidden;
@@ -103,7 +109,10 @@
     text-decoration: underline;
 
 }
-    p1{
+p1{
+    color: white;
+
+}
 .content .about p1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
