@@ -45,10 +45,7 @@
     letter-spacing: 1px;
     text-decoration: underline;
 }
-p1{
-    color: white;
 
-}
 .content .about p1{
     color:white;
     font-weight:lighter;
@@ -109,11 +106,9 @@ p1{
     text-decoration: underline;
 
 }
-p1{
-    color: white;
 
-}
 .content .about p1{
+    color:white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     padding-left: 19px;
@@ -185,6 +180,7 @@ footer img{
      
     }
     .content .about p{
+        color: white;
         font-size: 30px;
         padding-left: 21px;
         padding-right: 21px;
