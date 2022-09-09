@@ -4,7 +4,7 @@ html{
  }
  body{
     background-color: black;
-    background-image: url("images/1-3image.png");
+    background-image: url("./images/1-3image.png");
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
     
