@@ -12,6 +12,17 @@
     font-family: 'Times New Roman', Times, serif;
     
 }
+   header{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+    header  a {
+        color: white;
+    }
+    header span{
+        color: red;
+    }
 
 /* Content */
 .content h1{
