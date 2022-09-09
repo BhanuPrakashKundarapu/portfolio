@@ -97,8 +97,9 @@ header::after{
     justify-content: flex-end ;
     align-items: center;
     gap: 20px;
-    /* width: 100%; 
-    flex-wrap: nowrap;
+      
+   width: 100%;     
+      flex-wrap: nowrap;
     overflow-x: hidden;
   }
   .container .col{
