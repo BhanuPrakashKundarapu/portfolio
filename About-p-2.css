@@ -47,10 +47,13 @@
 }
 
 .content .about p1{
+    color:white;
     font-weight:lighter;
     font-size: 30px;
 }
 .content .about p{
+    color:white;
+    
     font-size: 30px;
     padding-left: 21px;
     padding-right: 21px;
