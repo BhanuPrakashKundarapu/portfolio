@@ -59,6 +59,7 @@
     padding-right: 21px;
 }
 .second_sec{
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content:end;
@@ -121,6 +122,7 @@
     padding-right: 0px;
 }
 .second_sec{
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -128,6 +130,7 @@
     margin-bottom: 0%;
 }
 .second_sec label{
+
     font-size: 20px;
     color: white;
 }
@@ -188,6 +191,7 @@ footer img{
         padding-right: 21px;
     }
     .second_sec{
+        color: white;
         display: flex;
         flex-direction: column;
         justify-content:center;
