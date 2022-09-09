@@ -7,6 +7,13 @@
     font-weight: 500;
 
 }
+ body{
+    background-color: black;
+    background-image: url("https://icon-library.com/images/graduate-icon-png/graduate-icon-png-5.jpg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
 
 /* Content */
 .content h1{
