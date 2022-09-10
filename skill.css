@@ -123,10 +123,13 @@ h2{
   animation:Python 2s;
 }
 .Java{
-  width:50%;
+  width:70%;
   animation:Java 2s;
 }
-
+.PHP{
+  width:50%;
+  animation:PHP 2s;
+}
 
 
  
@@ -209,6 +212,14 @@ h2{
     width:50%
   }
 }
+@keyframes PHP{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:50%
+  }
+}
 .total{
   display: flex;
   flex-direction: column;
@@ -284,6 +295,13 @@ footer h6{
     height: 150px;
     width:150px;
   }
+  .sixth img{
+    padding: 10px;
+    height: 150px;
+    width:150px;
+  }
+
+
   #html{
     background-color: white;
     border: 5px solid black;
@@ -327,6 +345,12 @@ footer h6{
     background-color: white;
     border: 5px solid black;
   }
+  #java,#PHP{
+    background-color: white;
+    border: 5px solid black;
+  }
+
+
   footer{
     justify-content: center;
     align-items: center;
