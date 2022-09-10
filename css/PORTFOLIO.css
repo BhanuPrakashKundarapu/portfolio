@@ -72,11 +72,12 @@
       height: 350px;
    }
    .grid .pic img{
-      border-top: 15px solid rgb(245, 210, 146);
-      border-bottom: 40px solid rgb(245, 210, 146) ;
-      border-left:9px solid rgb(245, 210, 146) ;
-      border-right: 9px solid rgb(245, 210, 146);
+      border-top: 7px solid rgb(245, 210, 146,0.3);
+      border-bottom: 7px solid rgb(245, 210, 146,0.3) ;
+      border-left:2px solid rgb(245, 210, 146,0.3) ;
+      border-right: 2px solid rgb(245, 210, 146,0.3);
       border-radius: 10px;
+      backdrop-filter: blur(12px);
       height: 350px;
     }
    .content h1{
