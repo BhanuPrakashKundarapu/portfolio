@@ -1,5 +1,5 @@
 
-const texts=["fullstack webdeveloper","DeJava ","freelancer","blogger"];
+const texts=["fullstack webdeveloper","Java Developer","freelancer","blogger"];
 let count=0;
 let index=0;
 let currentText='';
