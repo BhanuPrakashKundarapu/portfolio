@@ -1,6 +1,8 @@
 
 /* navBar */
 .nav{
+   position: relative;
+   z-index: 1;
     color: wheat;
     background-color: rgb(47, 79, 79,0.6);
     backdrop-filter: blur(8px);
@@ -43,14 +45,44 @@
    color: white;
    font-size: 1.5rem;
  }
+ .grid .pic .circle{
+   position: absolute;
+   top:0%;
+   left: 0%;
+   z-index: 0;
+   border-bottom: 5px solid rgb(251, 3, 3);
+   border-right: 5px solid white;
+   /* border-radius: 120px; */
+   background-color:transparent;
+   height: 400px;
+   width: 500px;
+ }
+ .grid .pic .circle2{
+   position: absolute;
+   z-index: 0;
+   top:70%;
+   right: 0%;
+   border-top: 5px solid rgb(248, 245, 245);
+   border-left: 5px solid rgb(245, 7, 7);
+   /* border-radius: 120px; */
+   background-color:transparent;
+   height: 300px;
+   width: 1400px;
+   overflow-x: hidden;
+ }
+
 
  .grid .pic img{
-   border-top: 15px solid rgb(245, 210, 146);
-   border-bottom: 60px solid rgb(245, 210, 146) ;
-   border-left:13px solid rgb(245, 210, 146) ;
-   border-right: 13px solid rgb(245, 210, 146);
-   margin-top: 40px;
-   height: 600px;
+   position: relative;
+
+   border-top: 7px solid rgb(245, 210, 146,0.3);
+      border-bottom: 7px solid rgb(245, 210, 146,0.3) ;
+      border-left:2px solid rgb(245, 210, 146,0.3) ;
+      border-right: 2px solid rgb(245, 210, 146,0.3);
+      border-radius: 10px;
+      backdrop-filter: blur(12px);
+      height: 600px;
+      z-index: 2;
  }
  
  .grid{
@@ -58,7 +90,31 @@
    justify-content:space-evenly;
    align-items: center;
  }
- @media (max-width:60rem){
+ @media(max-width:90rem){
+ .grid .pic .circle{
+   display: none;
+ }
+ .grid .pic .circle2{
+   display: none;
+
+ }
+ .grid .pic img{
+   height: 500px;
+ }
+}
+@media(max-width:90rem){
+   .grid .pic .circle{
+     display: none;
+   }
+   .grid .pic .circle2{
+     display: none;
+  
+   }
+   .grid .pic img{
+     height: 500px;
+   }
+  }
+ @media (max-width:64rem){
    body{
       overflow-x: hidden;
       background-image:url("./images\ -\ Copy/1-5-image.jpg");
@@ -93,3 +149,4 @@
       font-size:20px;
    }
  }
+ 

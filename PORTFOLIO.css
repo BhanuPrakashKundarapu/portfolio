@@ -43,7 +43,11 @@
    color: white;
    font-size: 1.5rem;
  }
-
+ .grid .pic .circle{
+   background-color: darkslategray;
+   height: 200px;
+   width: 200px;
+ }
  .grid .pic img{
    border-top: 15px solid rgb(245, 210, 146);
    border-bottom: 75px solid rgb(245, 210, 146) ;
