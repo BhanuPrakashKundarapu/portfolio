@@ -54,20 +54,21 @@
    border-right: 5px solid white;
    /* border-radius: 120px; */
    background-color:transparent;
-   height: 400px;
+   height: 350px;
    width: 500px;
+   overflow-x: hidden;
  }
  .grid .pic .circle2{
    position: absolute;
    z-index: 0;
-   top:70%;
+   top:95%;
    right: 0%;
    border-top: 5px solid rgb(248, 245, 245);
    border-left: 5px solid rgb(245, 7, 7);
    /* border-radius: 120px; */
    background-color:transparent;
-   height: 300px;
-   width: 1400px;
+   height: 90px;
+   width: 1200px;
    overflow-x: hidden;
  }
 
@@ -81,7 +82,7 @@
       border-right: 2px solid rgb(245, 210, 146,0.3);
       border-radius: 10px;
       backdrop-filter: blur(12px);
-      height: 600px;
+      height: 400px;
       z-index: 2;
  }
  
