@@ -93,15 +93,25 @@ header::after{
     overflow-x: hidden;
       background-image: url("https://raw.githubusercontent.com/BhanuPrakashKundarapu/z-portfolio/main/images/1-5-image.jpg");
   }
+  header::after{
+    content: "━━PROJECTS━━";
+    display: flex;
+    /* background-color: brown; */
+    flex-direction: column;
+  ;
+  }
+  .row{
+    margin-right: 10px;
+  }
   .container {
     display: flex;
     flex-direction: row;
     justify-content: center ;
     align-items: center;
     gap: 20px;
-      
    width: 100%;     
-      flex-wrap: nowrap;
+      /* flex-wrap: nowrap; */
+
     overflow-x: hidden;
   }
   .container .col{
@@ -111,7 +121,7 @@ header::after{
     align-items: center;
     /* gap: 20px; */
     /* width: 100%;  */
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     /* overflow-x: hidden; */
   }
 }
