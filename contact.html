@@ -9,8 +9,9 @@
 
     <link rel="stylesheet" href="css/common.css">
     <link href="css/contact.css" rel="stylesheet">
-    <script src="./contact.js" defer></script>
+    <script src="/contact.js" defer></script>
     <!-- CSS only -->
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
 
 </head>
 
@@ -20,11 +21,14 @@
    <div class="grid">
     <div class="col">
         <div class="feedback">
-            <p><input type="text" name="email" class="email" placeholder="Name"></p><br>
-            <p><input type="email" name="email" class="email" placeholder="email"></p><br>
-            <p><input type="text" placeholder="subject"> </p><br>
+            <form onSubmit="sendEmail(); reset(); return false;">
+            <input type="text" name="first" class="name" placeholder="Name" required><br>
+            <input type="email" name="email" class="email" placeholder="email" required><br>
+            <input type="number" name="number" class="number" placeholder="number" required> <br>
+            <input type="text" placeholder="subject" required><br>
             <textarea name="compose" id="compose" cols="80" rows="10" ></textarea><br>
             <input type="submit" class="submit">
+        </form>
         </div>
     </div>
         <div class="line"></div>

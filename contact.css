@@ -193,7 +193,10 @@ height: 550px;
         font-size:15px;
     }
     .grid .feedback input[type="text"]{
-        color:white;
+        color:rgb(247, 16, 16);
+    }
+    .grid .feedback .number[type="number"]{
+        color: white;
     }
     .grid .feedback p{
       display: flex;

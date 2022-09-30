@@ -81,7 +81,9 @@ p{
 .grid .feedback input[type="email"]{
     color: white;
 }
-
+.grid .feedback input[type="number"]{
+    color: white;
+}
 .grid .feedback input::placeholder{
     color: white;
 }
