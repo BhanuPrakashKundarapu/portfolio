@@ -265,7 +265,9 @@ height: 550px;
         font-weight: 900;
     }
 }
-
+.feedback textarea{
+    resize: none;
+}
 
 
 
