@@ -74,6 +74,7 @@ html{
 }
 
 .content .about p1{
+    color: white    ;
     font-weight:lighter;
     font-size: 30px;
 }

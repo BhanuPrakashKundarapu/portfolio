@@ -7,8 +7,8 @@
     <title>PORTFOLIO/Contact</title>
     <link rel="shortcut icon" href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-portfolio-social-media-agency-flaticons-lineal-color-flat-icons-3.png">
 
-    <link rel="stylesheet" href="css/common.css">
-    <link href="css/contact.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/contact.css">  
     <script src="/contact.js" defer></script>
     <!-- CSS only -->
     <script src=" https://smtpjs.com/v3/smtp.js"></script>
@@ -21,14 +21,14 @@
    <div class="grid">
     <div class="col">
         <div class="feedback">
-            <form onSubmit="sendEmail(); reset(); return false;">
-            <input type="text" name="first" class="name" placeholder="Name" required><br>
+            
+            <form action='/contact' method="POST">
+            <input type="text" name="name" class="name" placeholder="Name" required><br>
             <input type="email" name="email" class="email" placeholder="email" required><br>
-            <input type="number" name="number" class="number" placeholder="number" required> <br>
-            <input type="text" placeholder="subject" required><br>
-            <textarea name="compose" id="compose" cols="80" rows="10" ></textarea><br>
+            <input type="number" name="phone" class="number" placeholder="number" required> <br>
+            <input type="text" placeholder="subject" name="subject" required><br>
+            <textarea name="message" id="compose" cols="80" rows="10" ></textarea><br>
             <input type="submit" class="submit">
-        </form>
         </div>
     </div>
         <div class="line"></div>
@@ -43,6 +43,8 @@
             </ul>
             </div>
         </div>
+    </form>
+
         </div>
     </div>
 </body>
