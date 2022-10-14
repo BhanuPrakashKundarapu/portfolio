@@ -7,14 +7,12 @@
     <title>PORTFOLIO/Contact</title>
     <link rel="shortcut icon" href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-portfolio-social-media-agency-flaticons-lineal-color-flat-icons-3.png">
 
-    <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/contact.css">  
+    <link rel="stylesheet" href="/Z-PortFolio/css/contact.css">
+    <link rel="stylesheet" href="/Z-PortFolio/css/common.css">  
     <script src="/contact.js" defer></script>
-    <!-- CSS only -->
+<!-- CSS only -->
     <script src=" https://smtpjs.com/v3/smtp.js"></script>
-
 </head>
-
 <body style="background-color:black ;">
     <header><a href="index.html">PORT<span>FOLIO</span>.</a></header>
     <!-- <marquee>NOTE: it is a static website ,you will be anonymous </marquee> -->
@@ -22,13 +20,14 @@
     <div class="col">
         <div class="feedback">
             
-            <form action='/contact' method="POST">
+            <form name="submit-to-google-sheet">
             <input type="text" name="name" class="name" placeholder="Name" required><br>
             <input type="email" name="email" class="email" placeholder="email" required><br>
             <input type="number" name="phone" class="number" placeholder="number" required> <br>
             <input type="text" placeholder="subject" name="subject" required><br>
             <textarea name="message" id="compose" cols="80" rows="10" ></textarea><br>
             <input type="submit" class="submit">
+        </form>
         </div>
     </div>
         <div class="line"></div>
@@ -43,9 +42,20 @@
             </ul>
             </div>
         </div>
-    </form>
+    
 
         </div>
     </div>
+<script>
+  const scriptURL = '<https://script.google.com/macros/s/AKfycbybkE8ifj2XmVHd1az_cFAUGnbYtaLOzWj61YHQrJ2jPTrItVoHFgVemxZm2YCD-vkc2g/exec>'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 </body>
 </html>
