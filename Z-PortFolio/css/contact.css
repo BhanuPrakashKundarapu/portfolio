@@ -142,7 +142,8 @@ height: 550px;
 .grid .social_media a:hover{
     color:brown;
     font-size:40px;
-    animation: font 0.5s;
+    /* animation: font 0.5s; */
+    transform:perspective(-35%);
 }
 
 @keyframes font {
