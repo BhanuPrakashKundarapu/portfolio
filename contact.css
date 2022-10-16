@@ -160,7 +160,8 @@ height: 550px;
 @media (max-width:70rem){
     body{
         overflow-x: hidden;
-        background-image:url("./images/1-5-image.jpg");
+        /* background-image:url("./images/1-5-image.jpg"); */
+        background-color: brown;
         background-attachment: fixed;
      }
     .grid .line{
@@ -169,7 +170,7 @@ height: 550px;
     .grid .feedback p{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: right;
         grid-gap:30px;
       }
    .grid{
@@ -217,8 +218,11 @@ height: 550px;
         display: none;
     }
     .grid .feedback{
-        margin-right: 0%;
-        margin-left: 0px;
+        display:flex;
+        justify-content: center;
+        background-color: brown;
+        /* margin-right: 0%; */
+        /* margin-left: 0px; */
     }
     .grid .feedback input{
         width:350px;
