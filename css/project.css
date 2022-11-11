@@ -53,7 +53,7 @@ header::after{
  .col{
   line-height: 40px;
  }
- .drive_shaft , .weather_forecast,.Portfolio,.PGLIFE,.Guess,.Railway,.Teachnook,.ACCIOJOBS{
+ .drive_shaft , .weather_forecast,.Portfolio,.PGLIFE,.Guess,.Railway,.Teachnook,.internshala ,.acciojobs ,.Accenture{
    padding: 20px;
    list-style: none;
    background-color: rgb(247, 241, 241,0.5);
@@ -65,14 +65,14 @@ header::after{
    height:300px
 
  }
- .drive_shaft figcaption a,.weather_forecast a ,.Portfolio a,.PGLIFE a,.Guess a,.Railway a,.Teachnook a,.ACCIOJOBS a{
+ .drive_shaft figcaption a,.weather_forecast a ,.Portfolio a,.PGLIFE a,.Guess a,.Railway a,.Teachnook a,.internshala a,.acciojobs a,.Accenture a{
    text-decoration: none;
    color: white;
    background-color: brown;
    padding-right: 9px;
 }
  
- .container .drive_shaft .img ,.weather_forecast img ,.Portfolio img,.Guess img,.PGLIFE img,.Railway img,.Teachnook img,.ACCIOJOBS img{
+ .container .drive_shaft .img ,.weather_forecast img ,.Portfolio img,.Guess img,.PGLIFE img,.Railway img,.Teachnook img,.ACCIOJOBS img ,.internshala img,.acciojobs img,.Accenture img{
    height: 100px;
    width: 250px;
    margin: 10px;
